@@ -811,7 +811,7 @@ section {
   #projects-grid{
     grid-template-columns: 1fr;
     grid-template-rows: 550px;
-    grid-auto-rows: 480px;
+    grid-auto-rows: 580px;
   }
   .project-item-image{
     height: 40%;
