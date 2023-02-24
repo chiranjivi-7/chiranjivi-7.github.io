@@ -704,9 +704,9 @@ section {
 #projects-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 570px;
+  grid-template-rows: 600px;
   grid-auto-rows: 600px;
-  grid-gap: 50px;
+  grid-gap: 30px;
 }
 
 .project-item{
@@ -818,6 +818,12 @@ section {
   }
   .project-item-links{
     margin-top: 70px;
+  }
+
+  #gitd{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
 }
 
@@ -1158,6 +1164,10 @@ section {
   }
   p#contact-text{
     font-size: 18px;
+  }
+  #gitd{
+    display: grid;
+    grid-column: 1;
   }
 }
 
